@@ -4,14 +4,15 @@ This project is a **responsive product landing page** built using **vanilla HTML
 
 The implementation focuses on **clean code, semantic HTML, modern CSS practices, and performance optimization** while ensuring cross-browser compatibility.
 
+## Live Link
+
+[https://gushwork-assignment-lyart.vercel.app/](https://gushwork-assignment-lyart.vercel.app/)
 
 ## Screenshots
 
-```markdown
 ![Desktop Hero Section](screenshots/desktop-hero.png)
 ![tablet Hero Section](screenshots/tablet-Hero.png)
 ![mobile Hero Section](screenshots/mobile-Hero.png)
-```
 
 # Figma Design Reference
 
