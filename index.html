@@ -17,6 +17,11 @@
 
 <body>
 
+    <!-- 
+Main Navigation Bar
+Contains company logo, navigation links, and contact button.
+This section will also be used with the sticky header functionality implemented in script.js.
+-->
     <nav>
         <div class="logo">
             <img src="assets/logo.png" alt="Mangalam HDPE Pipes" class="main-logo">
@@ -34,16 +39,37 @@
         </div>
     </nav>
 
-    
+    <!-- 
+Breadcrumb Navigation
+Displays the user's current position within the product hierarchy.
+Improves navigation clarity and SEO.
+-->
+
     <div class="breadcrumb-container">
         <span class="bc-item">Products</span>
         <span class="bc-sep">&gt;</span>
         <span class="bc-item active">Two For One Twister</span>
     </div>
 
-    
+    <!-- 
+Hero Section
+Primary product showcase area containing:
+- Image carousel
+- Zoom functionality on hover
+- Product highlights
+- Pricing information
+- CTA buttons
+-->
     <section class="hero-section">
         <div class="hero">
+            <!-- 
+Product Image Carousel
+Features:
+- Main product image display
+- Navigation buttons (prev/next)
+- Thumbnail preview images
+- Hover zoom functionality using zoom lens
+-->
             <div class="hero-left">
                 <div class="hero-img-main">
                     <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=100"
@@ -52,6 +78,12 @@
                     <button class="carousel-nav next">&gt;</button>
                     <div id="zoom-lens"></div>
                 </div>
+                <!-- 
+Zoom Lens
+Used to create a magnified preview of the product image
+when the user hovers over the main image.
+Zoom behavior is controlled via JavaScript.
+-->
                 <div id="zoom-result"></div>
                 <div class="hero-thumbnails">
                     <div class="thumb active">
@@ -80,6 +112,8 @@
                     </div>
                 </div>
             </div>
+            
+
 
             <div class="hero-right">
                 <div class="cert-badges">
@@ -140,6 +174,12 @@
         </div>
     </section>
 
+
+    <!-- 
+Technical Specifications Section
+Displays engineering and performance data of the product
+in a structured table layout.
+-->
     <section class="specs-section" id="products">
         <div class="specs-container">
             <h2 class="specs-title">Technical Specifications at a Glance</h2>
@@ -213,6 +253,11 @@
     </section>
 
 
+    <!-- 
+Product Features Section
+Highlights key advantages and benefits of the product
+using a grid layout of feature cards.
+-->
     <section class="features-section">
         <div class="features-header">
             <h2 class="features-title">Built to Last. Engineered to Perform.</h2>
@@ -289,6 +334,12 @@
     </section>
 
 
+    <!-- 
+FAQ Section
+Interactive accordion where users can expand
+or collapse questions to view answers.
+Controlled using JavaScript.
+-->
     <section class="faq-section">
         <div class="faq-container">
             <h2 class="faq-title"><span class="blue-text">Frequently</span> Asked Questions</h2>
@@ -391,6 +442,11 @@
         </div>
     </section>
 
+    <!-- 
+Industry Applications Carousel
+Displays different industries where the product is used.
+Users can navigate through cards using next/previous buttons.
+-->
     <section class="apps-section" id="industries">
         <div class="apps-header">
             <div class="apps-info">
@@ -501,6 +557,11 @@
     </section>
 
 
+    <!-- 
+Manufacturing Process Section
+Step-by-step process displayed using tab navigation.
+Clicking each tab updates the content dynamically.
+-->
     <section class="mfg-section" id="process">
         <div class="mfg-container">
             <h2 class="mfg-title">Advanced HDPE Pipe Manufacturing Process</h2>
@@ -553,7 +614,11 @@
         </div>
     </section>
 
-
+<!-- 
+Testimonials Section
+Customer reviews displayed in a carousel format
+to build credibility and showcase real-world usage.
+-->
     <section class="testimonials-section" id="testimonials">
         <div class="testi-header">
             <h2 class="testi-title">Trusted Performance. Proven Results</h2>
@@ -655,6 +720,12 @@
         </div>
     </section>
 
+
+    <!-- 
+Product Portfolio Section
+Displays additional solutions and services offered
+related to the main product.
+-->
     <section class="portfolio-section" id="portfolio">
         <div class="port-container">
             <h2 class="port-title">Complete Piping Solutions Portfolio</h2>
@@ -724,7 +795,13 @@
         </div>
     </section>
 
-
+<!-- 
+Resources Section
+Provides downloadable documentation such as:
+- Installation manuals
+- Maintenance guides
+- Engineering specification sheets
+-->
     <section class="resources-section" id="resources">
         <div class="res-container">
             <h2 class="res-title">Resources &amp;Downloads</h2>
@@ -769,7 +846,11 @@
         </div>
     </section>
 
-
+<!-- 
+Contact / Quote Request Section
+Users can submit their contact details to request a quote.
+Form validation and submission handled via JavaScript.
+-->
     <section class="ready-section" id="contact">
         <div class="ready-container">
             <div class="ready-box">
@@ -813,7 +894,11 @@
         </div>
     </section>
 
-
+<!-- 
+Website Footer
+Contains company information, product links,
+contact details, and social media icons.
+-->
     <footer class="main-footer">
         <div class="footer-banner-card">
             <div class="footer-banner-logo">
@@ -935,7 +1020,11 @@
         </div>
     </footer>
 
-
+<!-- 
+Brochure Download Modal
+Popup form allowing users to enter their email
+to receive the full product catalogue.
+-->
     <div id="brochureModal" class="modal-overlay">
         <div class="modal-container">
             <div class="modal-header">
@@ -960,7 +1049,11 @@
         </div>
     </div>
 
-
+<!-- 
+Callback Request Modal
+Popup form where users can request a call from
+the company's sales team.
+-->
     <div id="callbackModal" class="modal-overlay">
         <div class="modal-container">
             <div class="modal-header">
